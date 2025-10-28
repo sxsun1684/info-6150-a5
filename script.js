@@ -33,7 +33,7 @@ form.addEventListener('submit', (e) => {
 
     // Validate birth year
     if (isNaN(year) || year <= 1900 || year >= currentYear) {
-        showError('yearError', `Year must be between 1900 and ${currentYear - 1}.`);
+        showError('yearError', `Year must be greater than 1900 and smaller than ${currentYear}.`);
         valid = false;
     }
 
