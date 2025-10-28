@@ -57,6 +57,23 @@ fieldset {
     background-color: #fffde7;
 }
 
+form fieldset {
+    margin-bottom: 2rem !important;
+}
+
+.form-group {
+    margin-bottom: 1.2rem !important;
+}
+
+/* Specifically fix checkbox being too close */
+.form-group input[type="checkbox"] {
+    margin-right: 0.6rem;
+}
+
+/* Add spacing between the last input and submit button */
+.form-actions {
+    margin-top: 2rem !important;
+}
 
 legend {
     font-weight: 600;
@@ -65,7 +82,7 @@ legend {
 
 label {
     display: inline;
-    margin-bottom: 0.3rem;
+    margin-bottom: 5rem;
     font-weight: 600;
 }
 
